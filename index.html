@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="desktop-nav">
+        <a href="#" class="logo">Desishub</a>
+        <div class="middle-links">
+          <a href="#">Home</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="right-links">
+          <a href="#">Login</a>
+          <button class="signup">Signup</button>
+        </div>
+      </nav>
+      <nav class="mobile-nav">
+        <a class="logo" href="#">Desishub</a>
+        <button id="menuBtn">
+          <i class="bx bx-menu-alt-right"></i>
+        </button>
+        <div class="mobile-menu">
+          <div class="header">
+            <a class="logo" href="#">Desishub</a>
+            <button id="closeBtn">
+              <i class="bx bx-x" style="color: #ffffff"></i>
+            </button>
+          </div>
+          <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+            <a href="#">Login</a>
+            <button class="signup">Signup</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="signup-modal">
+      <div class="header">
+        <h4 class="">Sign Up</h4>
+        <button id="signUpCloseBtn">
+          <i class="bx bx-x" style="color: #ffffff"></i>
+        </button>
+      </div>
+      <form action="">
+        <div class="form-field">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="john doe" />
+        </div>
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="johndoe@gmail.com" />
+        </div>
+        <div class="form-field">
+          <label for="password">Password</label>
+          <input type="text" id="password" placeholder="****" />
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <section>
+      <button class="signup">Signup</button>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
